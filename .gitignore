@@ -1,0 +1,23 @@
+# Secrets — NEVER commit
+kaggle.json
+.kaggle/
+*.env
+.env
+
+# Model artifacts / checkpoints
+*.pth
+*.pt
+*.onnx
+best_model.pth
+
+# Data
+data/
+*.zip
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
